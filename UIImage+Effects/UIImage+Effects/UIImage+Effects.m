@@ -1,13 +1,13 @@
 //
-//  NSObject+ImageEffects.h
+//  UIImage+Effects.m
 //  UIImage+Effects
 //
 //  Created by XI YANGUI on 2018/7/18.
 //  Copyright © 2018年 XI YANGUI. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "UIImage+Effects.h"
 
-@interface NSObject (ImageEffects)
+@implementation UIImage (Effects)
 
 @end
