@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF52188B20FED1E500021BC1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF52188A20FED1E500021BC1 /* AppDelegate.m */; };
+		EF52188E20FED1E500021BC1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF52188D20FED1E500021BC1 /* ViewController.m */; };
+		EF52189120FED1E500021BC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF52188F20FED1E500021BC1 /* Main.storyboard */; };
+		EF52189320FED1E600021BC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF52189220FED1E600021BC1 /* Assets.xcassets */; };
+		EF52189620FED1E600021BC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF52189420FED1E600021BC1 /* LaunchScreen.storyboard */; };
+		EF52189920FED1E600021BC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF52189820FED1E600021BC1 /* main.m */; };
+		EF5218A320FED1E600021BC1 /* UIImage_EffectsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5218A220FED1E600021BC1 /* UIImage_EffectsTests.m */; };
+		EF5218AE20FED1E600021BC1 /* UIImage_EffectsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5218AD20FED1E600021BC1 /* UIImage_EffectsUITests.m */; };
+		EF5218BD20FED24200021BC1 /* NSObject+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5218BC20FED24200021BC1 /* NSObject+ImageEffects.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF52189F20FED1E600021BC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF52187E20FED1E500021BC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF52188520FED1E500021BC1;
+			remoteInfo = "UIImage+Effects";
+		};
+		EF5218AA20FED1E600021BC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF52187E20FED1E500021BC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF52188520FED1E500021BC1;
+			remoteInfo = "UIImage+Effects";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF52188620FED1E500021BC1 /* UIImage+Effects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIImage+Effects.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF52188920FED1E500021BC1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF52188A20FED1E500021BC1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF52188C20FED1E500021BC1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF52188D20FED1E500021BC1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF52189020FED1E500021BC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF52189220FED1E600021BC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF52189520FED1E600021BC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF52189720FED1E600021BC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF52189820FED1E600021BC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF52189E20FED1E600021BC1 /* UIImage+EffectsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIImage+EffectsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF5218A220FED1E600021BC1 /* UIImage_EffectsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIImage_EffectsTests.m; sourceTree = "<group>"; };
+		EF5218A420FED1E600021BC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF5218A920FED1E600021BC1 /* UIImage+EffectsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIImage+EffectsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF5218AD20FED1E600021BC1 /* UIImage_EffectsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIImage_EffectsUITests.m; sourceTree = "<group>"; };
+		EF5218AF20FED1E600021BC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF5218BB20FED24200021BC1 /* NSObject+ImageEffects.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+ImageEffects.h"; sourceTree = "<group>"; };
+		EF5218BC20FED24200021BC1 /* NSObject+ImageEffects.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ImageEffects.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF52188320FED1E500021BC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF52189B20FED1E600021BC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5218A620FED1E600021BC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF52187D20FED1E500021BC1 = {
+			isa = PBXGroup;
+			children = (
+				EF52188820FED1E500021BC1 /* UIImage+Effects */,
+				EF5218A120FED1E600021BC1 /* UIImage+EffectsTests */,
+				EF5218AC20FED1E600021BC1 /* UIImage+EffectsUITests */,
+				EF52188720FED1E500021BC1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF52188720FED1E500021BC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF52188620FED1E500021BC1 /* UIImage+Effects.app */,
+				EF52189E20FED1E600021BC1 /* UIImage+EffectsTests.xctest */,
+				EF5218A920FED1E600021BC1 /* UIImage+EffectsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF52188820FED1E500021BC1 /* UIImage+Effects */ = {
+			isa = PBXGroup;
+			children = (
+				EF52188920FED1E500021BC1 /* AppDelegate.h */,
+				EF52188A20FED1E500021BC1 /* AppDelegate.m */,
+				EF52188C20FED1E500021BC1 /* ViewController.h */,
+				EF52188D20FED1E500021BC1 /* ViewController.m */,
+				EF5218BB20FED24200021BC1 /* NSObject+ImageEffects.h */,
+				EF5218BC20FED24200021BC1 /* NSObject+ImageEffects.m */,
+				EF52188F20FED1E500021BC1 /* Main.storyboard */,
+				EF52189220FED1E600021BC1 /* Assets.xcassets */,
+				EF52189420FED1E600021BC1 /* LaunchScreen.storyboard */,
+				EF52189720FED1E600021BC1 /* Info.plist */,
+				EF52189820FED1E600021BC1 /* main.m */,
+			);
+			path = "UIImage+Effects";
+			sourceTree = "<group>";
+		};
+		EF5218A120FED1E600021BC1 /* UIImage+EffectsTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF5218A220FED1E600021BC1 /* UIImage_EffectsTests.m */,
+				EF5218A420FED1E600021BC1 /* Info.plist */,
+			);
+			path = "UIImage+EffectsTests";
+			sourceTree = "<group>";
+		};
+		EF5218AC20FED1E600021BC1 /* UIImage+EffectsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF5218AD20FED1E600021BC1 /* UIImage_EffectsUITests.m */,
+				EF5218AF20FED1E600021BC1 /* Info.plist */,
+			);
+			path = "UIImage+EffectsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF52188520FED1E500021BC1 /* UIImage+Effects */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF5218B220FED1E600021BC1 /* Build configuration list for PBXNativeTarget "UIImage+Effects" */;
+			buildPhases = (
+				EF52188220FED1E500021BC1 /* Sources */,
+				EF52188320FED1E500021BC1 /* Frameworks */,
+				EF52188420FED1E500021BC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIImage+Effects";
+			productName = "UIImage+Effects";
+			productReference = EF52188620FED1E500021BC1 /* UIImage+Effects.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF52189D20FED1E600021BC1 /* UIImage+EffectsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF5218B520FED1E600021BC1 /* Build configuration list for PBXNativeTarget "UIImage+EffectsTests" */;
+			buildPhases = (
+				EF52189A20FED1E600021BC1 /* Sources */,
+				EF52189B20FED1E600021BC1 /* Frameworks */,
+				EF52189C20FED1E600021BC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF5218A020FED1E600021BC1 /* PBXTargetDependency */,
+			);
+			name = "UIImage+EffectsTests";
+			productName = "UIImage+EffectsTests";
+			productReference = EF52189E20FED1E600021BC1 /* UIImage+EffectsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF5218A820FED1E600021BC1 /* UIImage+EffectsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF5218B820FED1E600021BC1 /* Build configuration list for PBXNativeTarget "UIImage+EffectsUITests" */;
+			buildPhases = (
+				EF5218A520FED1E600021BC1 /* Sources */,
+				EF5218A620FED1E600021BC1 /* Frameworks */,
+				EF5218A720FED1E600021BC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF5218AB20FED1E600021BC1 /* PBXTargetDependency */,
+			);
+			name = "UIImage+EffectsUITests";
+			productName = "UIImage+EffectsUITests";
+			productReference = EF5218A920FED1E600021BC1 /* UIImage+EffectsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF52187E20FED1E500021BC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "XI YANGUI";
+				TargetAttributes = {
+					EF52188520FED1E500021BC1 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					EF52189D20FED1E600021BC1 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = EF52188520FED1E500021BC1;
+					};
+					EF5218A820FED1E600021BC1 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = EF52188520FED1E500021BC1;
+					};
+				};
+			};
+			buildConfigurationList = EF52188120FED1E500021BC1 /* Build configuration list for PBXProject "UIImage+Effects" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF52187D20FED1E500021BC1;
+			productRefGroup = EF52188720FED1E500021BC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF52188520FED1E500021BC1 /* UIImage+Effects */,
+				EF52189D20FED1E600021BC1 /* UIImage+EffectsTests */,
+				EF5218A820FED1E600021BC1 /* UIImage+EffectsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF52188420FED1E500021BC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF52189620FED1E600021BC1 /* LaunchScreen.storyboard in Resources */,
+				EF52189320FED1E600021BC1 /* Assets.xcassets in Resources */,
+				EF52189120FED1E500021BC1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF52189C20FED1E600021BC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5218A720FED1E600021BC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF52188220FED1E500021BC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5218BD20FED24200021BC1 /* NSObject+ImageEffects.m in Sources */,
+				EF52188E20FED1E500021BC1 /* ViewController.m in Sources */,
+				EF52189920FED1E600021BC1 /* main.m in Sources */,
+				EF52188B20FED1E500021BC1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF52189A20FED1E600021BC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5218A320FED1E600021BC1 /* UIImage_EffectsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5218A520FED1E600021BC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5218AE20FED1E600021BC1 /* UIImage_EffectsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF5218A020FED1E600021BC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF52188520FED1E500021BC1 /* UIImage+Effects */;
+			targetProxy = EF52189F20FED1E600021BC1 /* PBXContainerItemProxy */;
+		};
+		EF5218AB20FED1E600021BC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF52188520FED1E500021BC1 /* UIImage+Effects */;
+			targetProxy = EF5218AA20FED1E600021BC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF52188F20FED1E500021BC1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF52189020FED1E500021BC1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF52189420FED1E600021BC1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF52189520FED1E600021BC1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF5218B020FED1E600021BC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF5218B120FED1E600021BC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF5218B320FED1E600021BC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D7YL46JLGV;
+				INFOPLIST_FILE = "UIImage+Effects/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fff.UIImage-Effects";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF5218B420FED1E600021BC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D7YL46JLGV;
+				INFOPLIST_FILE = "UIImage+Effects/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fff.UIImage-Effects";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF5218B620FED1E600021BC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D7YL46JLGV;
+				INFOPLIST_FILE = "UIImage+EffectsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fff.UIImage-EffectsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIImage+Effects.app/UIImage+Effects";
+			};
+			name = Debug;
+		};
+		EF5218B720FED1E600021BC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D7YL46JLGV;
+				INFOPLIST_FILE = "UIImage+EffectsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fff.UIImage-EffectsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIImage+Effects.app/UIImage+Effects";
+			};
+			name = Release;
+		};
+		EF5218B920FED1E600021BC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D7YL46JLGV;
+				INFOPLIST_FILE = "UIImage+EffectsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fff.UIImage-EffectsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "UIImage+Effects";
+			};
+			name = Debug;
+		};
+		EF5218BA20FED1E600021BC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D7YL46JLGV;
+				INFOPLIST_FILE = "UIImage+EffectsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fff.UIImage-EffectsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "UIImage+Effects";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF52188120FED1E500021BC1 /* Build configuration list for PBXProject "UIImage+Effects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5218B020FED1E600021BC1 /* Debug */,
+				EF5218B120FED1E600021BC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF5218B220FED1E600021BC1 /* Build configuration list for PBXNativeTarget "UIImage+Effects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5218B320FED1E600021BC1 /* Debug */,
+				EF5218B420FED1E600021BC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF5218B520FED1E600021BC1 /* Build configuration list for PBXNativeTarget "UIImage+EffectsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5218B620FED1E600021BC1 /* Debug */,
+				EF5218B720FED1E600021BC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF5218B820FED1E600021BC1 /* Build configuration list for PBXNativeTarget "UIImage+EffectsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5218B920FED1E600021BC1 /* Debug */,
+				EF5218BA20FED1E600021BC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF52187E20FED1E500021BC1 /* Project object */;
+}
